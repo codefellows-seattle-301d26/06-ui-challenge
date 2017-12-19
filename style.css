@@ -1,0 +1,179 @@
+html {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+  padding: 0%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0%;
+}
+
+div {
+  position: relative;
+  padding: 0%;
+  margin: -3px;
+  background: grey;
+  border: solid black 1px;
+  display: inline-block;
+}
+
+
+.a {
+  min-width: 90vw;
+  min-height: calc(90vw / 6.4);
+}
+
+.b {
+  min-width: 90vw;
+  min-height: calc(90vw / 3.2);
+}
+
+.c {
+  min-width: 90vw;
+  min-height: calc(90vw / 3.84);
+}
+
+.d {
+  min-width: 90vw;
+  min-height: calc(90vw / 3.84);
+}
+
+.e {
+  min-width: 45vw;
+  min-height: calc(90vw / 1.92);
+}
+
+.f {
+  margin-left: -3px;
+  min-width: 45vw;
+  min-height: calc(90vw / 1.92);
+}
+
+.g {
+  min-width: 45vw;
+  min-height: calc(90vw / 1.92);
+}
+
+.h {
+  margin-left: -3px;
+  min-width: 45vw;
+  min-height: calc(90vw / 1.92);
+}
+
+.i {
+  min-width: 90vw;
+  min-height: calc(90vw / 6);
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    width: 960px;
+  }
+  .a {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    min-width: 90vw;
+    min-height: calc(90vw / 9.6);
+    max-width: 100%;
+  }
+
+  .b {
+    left: 0px;
+    top: calc(90vw / 9.6);
+    position: absolute;
+    min-width: calc(90vw / 4.8);
+    min-height: calc(90vw / 1.6);
+    max-width: 100%;
+  }
+
+  .c {
+    top: calc(90vw / 9.6);
+    left: calc(90vw / 4.8);
+    position: absolute;
+    min-width: calc(90vw / (960 / 380));
+    min-height: calc(90vw / 4.8);
+    max-width: 100%;
+  }
+
+  .d {
+    top: calc(90vw / 9.6);
+    left: calc(90vw / (960 / 580));
+    position: absolute;
+    min-width: calc(90vw / (960 / 380));
+    min-height: calc(90vw / 4.8);
+    max-width: 100%;
+  }
+
+  .e {
+    top: calc(90vw / 3.2);
+    left: calc(90vw / (960 / 200));
+    position: absolute;
+    min-width: calc(90vw / (960 / 190));
+    min-height: calc(90vw / 3.84);
+    max-width: 100%;
+  }
+
+  .f {
+    margin-left: -5px;
+    top: calc(90vw / 3.2);
+    left: calc(90vw / (960 / 393));
+    position: absolute;
+    min-width: calc(90vw / (960 / 190));
+    min-height: calc(90vw / 3.84);
+    max-width: 100%;
+  }
+
+  .g {
+    top: calc(90vw / 3.2);
+    left: calc(90vw / (960 / 580));
+    position: absolute;
+    min-width: calc(90vw / (960 / 190));
+    min-height: calc(90vw / 3.84);
+    max-width: 100%;
+  }
+
+  .h {
+    margin-left: -7px;
+    top: calc(90vw / 3.2);
+    left: calc(90vw / (960 / 774));
+    position: absolute;
+    min-width: calc(90vw / (960 / 190));
+    min-height: calc(90vw / 3.84);
+    max-width: 100%;
+  }
+
+  .i {
+    top: calc(90vw / (960 / 550));
+    left: calc(90vw / (960 / 200));
+    position: absolute;
+    min-width: calc(90vw / (960 / 760));
+    min-height: calc(90vw / 6.4);
+    max-width: 100%;
+  }
+}
